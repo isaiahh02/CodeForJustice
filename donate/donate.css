@@ -83,3 +83,68 @@ nav {
 .fa-search {
     padding: 10.5px;
 }
+
+/* HERO-1 SECTION */
+.hero-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 4rem;
+}
+
+.hero-1-content h2 {
+    font-size: 2rem;
+    padding: 0px 0px 25px 25px;
+}
+
+.hero-1-content p {
+    border-left: 5px green solid;
+    padding-left: 15px;
+    line-height: 2;
+}
+
+.btn {
+    border: none;
+    background-color: #2196F3;
+    color: white;
+    padding: 14px 24px;
+    font-size: 1.2rem;
+}
+
+.hero-1-btn {
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+/* HERO-2 SECTION */
+
+.hero-2 {
+    padding: 100px 0px;
+}
+
+.hero-2-content {
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.hero-2-content h2 {
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 25px;
+}
+
+.hero-2-content p {
+    border-left: 5px green solid;
+    border-right: 5px green solid;
+    padding-left: 25px;
+    padding-right: 25px;
+    line-height: 2;
+}
+
+.hero-2-btn {
+    width: 15%;
+    margin: 0 auto;
+    margin-top: 50px;
+}

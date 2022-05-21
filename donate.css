@@ -1,79 +1,51 @@
-/* BASE STYLING */
 * {
     box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    font-family: 'Open Sans', sans-serif;
-}
-
-a {
-    text-decoration: none;
-}
-
-ul {
-    list-style: none;
-}
-
-li {
-    text-align: center;
+    padding:0;
+    margin:0;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 /* HEADER */
-header {
-    display: grid;
-    grid-template-columns: 15% 40% 45%;
-    padding: 1rem 1.6rem;
+.header {
+    display:flex;
+    padding-top: 5px;
+    padding-left: 5px;
+    justify-content: space-around;
     background-color: #d1d1c9;
-}
-
-/* LOGO */
-figure {
-    display: grid;
     align-items: center;
-    justify-content: center;
-}
-
-.logo-img {
-    height: 100px;
 }
 
 /* NAVIGATION BAR */
-nav {
-    display: grid;
-}
-
 .navbar {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.2rem;
+    padding-top: 5px;
+    font-size: 1rem;
 }
 
-.navbar li {
-    padding: 0.2rem 0rem;
+.navlist li{
+    padding-right: 20px;
 }
 
-.navbar li:hover {
-    background-color: #2196F3;
-}
-
-.navbar a {
+.navlist li a {
+    text-decoration: none;
     color: black;
 }
 
-.navbar a:hover {
-    color: #ffffff;
+.navlist li a:hover {
+    color: red;
+}
+
+.menu {
+    list-style-type: none;
+    display: inline;
+}
+
+/* LOGO */
+.logo img {
+    height: 100px;
 }
 
 /* SEARCH BAR */
-.search-container {
-    display: grid;
-    justify-content: end;
-    align-items: center;
-}
-
-.search-container input[type=text] {
+.search input[type=text] {
     padding: 9px;
     margin-top: 8px;
     font-size: 17px;
@@ -84,12 +56,17 @@ nav {
     padding: 10.5px;
 }
 
+
 /* HERO-1 SECTION */
 .hero-1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 4rem;
     margin-top: 4rem;
+}
+
+.hero-1-image {
+    text-align: center;
 }
 
 .hero-1-content h2 {
@@ -101,6 +78,7 @@ nav {
     border-left: 5px green solid;
     padding-left: 15px;
     line-height: 2;
+    font-size: 1.1rem;
 }
 
 .btn {
@@ -120,11 +98,11 @@ nav {
     margin-top: 50px;
 }
 
-/* HERO-2 SECTION */
 
+/* HERO-2 SECTION */
 .hero-2 {
     padding: 4rem 0rem;
-    margin-top: 3rem;
+    margin-top: 1rem;
     margin-bottom: 5rem;
 }
 
@@ -148,6 +126,7 @@ nav {
     padding-left: 25px;
     padding-right: 25px;
     line-height: 2;
+    font-size: 1.1rem;
 }
 
 .hero-2-btn {
@@ -164,6 +143,9 @@ footer {
     padding: 80px 0px;
 }
 
+.footer-logo {
+    text-align: center;
+}
 .newsletter-form {
     display: flex;
     flex-direction: column;
@@ -191,4 +173,39 @@ footer h2 {
     padding: 9px;
     font-size: 17px;
     margin-top: 3px;
+}
+
+/* Style all font awesome icons */
+.social-media .fa {
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+.credit {
+    height: 50px;
+    text-align: center;
+    background-color: red;
+    font-size: large;
+    padding: 15px;
 }

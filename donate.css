@@ -135,6 +135,16 @@
     margin-top: 50px;
 }
 
+#donateSites {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    padding: 1rem 0;
+    font-size: 1.2rem;
+}
+
 /* FOOTER */
 footer {
     background-color: #d1d1c9;

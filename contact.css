@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+body{
+font-family: 'Times New Roman', Times, serif;}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #d1d1c9;
+}
+
+figure, .search {
+  width: 22%
+}
+
+nav {
+  width: 56%;
+}
+
+.navbar {
+  padding-top: 5px;
+  font-size: 1rem;
+}
+
+.navlist {
+  text-align: center;
+}
+
+.navlist li {
+  padding-right: 20px;
+}
+
+.navlist li a {
+  text-decoration: none;
+  color: black;
+}
+
+.navlist li a:hover {
+  color: red;
+}
+
+.menu {
+  list-style-type: none;
+  display: inline-block;
+}
+
+/* LOGO */
+.logo img {
+  height: 100px;
+}
+
+/* SEARCH BAR */
+.search input[type=text] {
+  display: inline;
+  padding: 9px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+  width: 80%;
+}
+.search > form > button {
+  width:50px;
+}
+.search form{
+  display: flex;
+  flex-direction: row;
+}
+.fa-search {
+  padding: 10.5px;
+}
+
+li,
+a {
+  text-decoration: none;
+  list-style-type: none;
+  color: inherit;
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  width: 100%;
+  padding: 3rem 0;
+
+}
+
+.form {
+  margin: 5vh auto;
+  padding: 3rem 1.5rem;
+  border: 2px solid black;
+  max-width: 800px;
+  max-height: 500px;
+  border-radius: 5px;
+
+}
+
+.form-wrapper {
+  margin-bottom: 1.5em;
+}
+
+label {
+  font-size: 20px;
+}
+
+input {
+  width: 200px;
+  height: 30px;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#FAQs {
+  text-align: center;
+}
+
+.panel {
+  padding: 0 18px;
+  /* background-color: white; */
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  text-align: center;
+}
+
+footer {
+  background-color: #d1d1c9;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 80px 0px;
+}
+
+.footer-logo {
+  text-align: center;
+}
+
+footer h2 {
+  padding: 10px 0px;
+}
+
+.social-media .fa {
+  padding: 20px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}

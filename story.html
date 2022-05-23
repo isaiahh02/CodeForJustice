@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+    <link rel="stylesheet" href="story.css">
+    <title>Our Story | I'm full</title>
+</head>
+<body>
+    <header class="header">
+        <figure class="logo">
+            <img src="images/logo.jpeg" img alt="logo">
+        </figure>
+        <nav class="navbar">
+            <ul class="navlist">
+                <li class="menu"><a href ="index.html">HOME</a></li>
+                <li class="menu"><a href ="story.html">STORY</a></li>
+                <li class="menu"><a href ="donate.html">DONATE</a></li>
+                <li class="menu"><a href ="volunteer.html">VOLUNTEER</a></li>
+                <li class="menu"><a href ="contact.html">CONTACT/FAQ</a></li>
+            </ul>
+        </nav>
+        <span class="search">
+            <form action="#">
+              <input type="text" placeholder="Search.." name="search">
+              <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+        </span>
+    </header>
+
+    <section class="hero-1">
+        <div class="hero-1-content">
+            <h2>What we do</h2>
+            <p>
+                I'm full is an organization dedicated bring light to communities that are struggling 
+                with famine. Around the world, more than enough food is produced to feed the global population.
+                Our goal is to educate on world hunger and to bring people together to bring food to the less
+                fortunate. We also organize volunteer meets where we provide food through food drives.
+            </p>
+            <button class="btn hero-1-btn">
+                <a>More on Volunteering</a>
+            </button>
+        </div>
+        <figure class="hero-1-image">
+            <img src="../images/wh-5.jpeg" alt="picture-of-a-man-volunteering">
+        </figure>
+    </section>
+
+    <section class="hero-2">
+        <div class="hero-2-content">
+            <h2>What YOU can do</h2>
+            <p>
+                It takes each one of us working together to fight world hunger. I am full is dedicated to providing 
+                avenues for people to donate whatever they can. We have locations all over for you to donate food. Check
+                out our donate page for more options. If you are unable to donate food physically, we have partner organizations
+                that you can donate money through. Pick your preferred option below to continue
+            </p>
+            <button class="btn hero-2-btn">
+                <a id="donateButton">Donate at one of our locations</a>
+            </button>
+            <button class="btn hero-2-btn">
+                <a id="donateButton" onclick="toggleText();">Donate at our partner organizations</a>
+            </button>
+            <aside id="donateSites"></aside>
+        </div>
+    </section>
+
+    <footer>
+        <figure class="logo footer-logo">
+            <img src="images/logo.jpeg" img alt="logo">
+        </figure>
+        <form action="#" class="newsletter-form">
+            <h2>Stay in the know</h2>
+            <input type="text" placeholder="Enter Email" name="email">
+            <button type="submit">Submit</button>
+        </form>
+        <div class="social-media">
+            <h2>Follow us</h2>
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+        </div>
+        <div class="phone-number">
+            <h2>Call us</h2>
+            <p>+1(704)980-8890</p>
+        </div>
+    </footer>
+    <div class="credit">
+        Created by Group 6
+    </div>
+</body>
+<script src="story.js"></script>
+</html>

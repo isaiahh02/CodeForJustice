@@ -130,7 +130,7 @@
 }
 
 .hero-2-btn {
-    width: 15%;
+    width: 25%;
     margin: 0 auto;
     margin-top: 50px;
 }
@@ -212,78 +212,10 @@ footer h2 {
     color: white;
 }
 
-/* Map API */
-
-#map {
-    height: 400px;
-    width: 600px;
-}
-
 .credit {
     height: 50px;
     text-align: center;
     background-color: red;
     font-size: large;
     padding: 15px;
-}
-
-#mapdisplay {
-    position: relative;
-    border: 1px solid black;
-    padding: 10px;
-    top: -0px;
-}
-
-/* Map description */
-/*
-#mapdescription {
-    position: absolute;
-    border: 1px solid black;
-    padding: 210px;
-    top: 110px;
-    z-index: 99;
-    left: 750px;
-}
-*/
-
-.hero-3 {
-    position: absolute;
-    top: 40px;
-    left: 750px;
-    padding: 4rem 0rem;
-    margin-top: 1rem;
-    margin-bottom: 5rem;
-    z-index: 5;
-}
-
-.hero-3-content {
-    display: grid;
-    align-content: center;
-    justify-content: center;
-    width: 90%;
-    margin: 0 auto;
-}
-
-.hero-3-content h2 {
-    text-align: center;
-    font-size: 2rem;
-    padding-bottom: 25px;
-}
-
-.hero-3-content p {
-    border-left: 5px rgb(34, 81, 253) solid;
-    border-right: 5px rgb(34, 81, 253) solid;
-    padding-left: 25px; 
-    padding-right: 25px; 
-    line-height: 2;
-    font-size: 1.1rem;
-}
-
-.hero-3-content ul {
-    border-left: 5px rgb(34, 81, 253) solid;
-    border-right: 5px rgb(34, 81, 253) solid;
-    padding-left: 25px; 
-    padding-right: 25px; 
-    line-height: 2;
-    font-size: 0.9rem;
 }

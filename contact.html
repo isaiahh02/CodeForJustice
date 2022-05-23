@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <header class="header">
+    <figure class="logo">
+      <img src="logo.jpeg" img alt="logo">
+    </figure>
+
+    <nav class="navbar">
+      <ul class="navlist">
+        <li class="menu"><a href="index.html">HOME</a></li>
+        <li class="menu"><a href="#">DONATE</a></li>
+        <li class="menu"><a href="#">WANT TO HELP</a></li>
+        <li class="menu"><a href="#">CONTACT/FAQ</a></li>
+      </ul>
+    </nav>
+    
+    <span class="search">
+      <form action="#">
+        <input type="text" placeholder="Search.." name="search">
+        <button type="submit"><i class="fa fa-search"></i></button>
+      </form>
+    </span>
+  </header>
+  
+  <section class="container">
+    <form class="form">
+      <div class="form-wrapper">
+        <label for="name">Name</label>
+        <input id="name" type="text" name="name" placeholder="name here">
+      </div>
+
+      <div class="form-wrapper">
+        <label for="email">Email</label>
+        <input id="email" type="email" name="email" placeholder="email here" required>
+      </div>
+
+
+      <div class="form-wrapper">
+        <label for="phone"> Phone Number</label>
+        <input id="phone" type="tel" name="phone" placeholder="phone here" required>
+      </div>
+
+      <div class="form-wrapper">
+        <label for="message"> How did you find us?</label>
+        <textarea name="message" id="message" placeholder="Tell us here" required>
+            </textarea>
+      </div>
+
+      <button class="submit-button" type="submit"> Submit </button>
+
+
+    </form>
+
+  </section>
+  <section>
+    <p id="FAQs"> FAQs </p>
+    <button class="accordion">How can I donate?</button>
+    <div class="panel">
+      <p>To donate go to our home page and fill out the form.
+        Otherwise fill the contact form and you will be contacted for extra help.
+      </p>
+    </div>
+
+    <button class="accordion">Where is my donation receipt?</button>
+    <div class="panel">
+      <p>You will eceive an email confirmation after
+        submitting your donation.This email serves as
+        your donation receipt. You can print or save the
+        email as proof of receipt for tax purposes. You will
+        also receive a physical (paper) acknowledgement of
+        your gift through the mail. </p>
+    </div>
+
+    <button class="accordion">Is my donation secure?</button>
+    <div class="panel">
+      <p>Your security is important to us, and we take every measure
+        to ensure your information is protected. "I'm Full" donation
+        process complies with the Payment Card Industry Data Security
+        Standard. The process is fully encrypted using industry
+        best practices to ensure your personal and credit card information
+        is kept private and secure. We perform frequent scans on our donation
+        systems to ensure that your information is protected against threats.</p>
+    </div>
+  </section>
+  <footer>
+    <figure class="logo footer-logo">
+      <img src="logo.jpeg" img alt="logo">
+    </figure>
+    <div class="social-media">
+      <h2>Follow us</h2>
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-instagram"></a>
+    </div>
+    <div class="phone-number">
+      <h2>Call us</h2>
+      <p>+1(704)980-8890</p>
+    </div>
+  </footer>
+
+  <script>
+    var acc = document.getElementsByClassName("accordion");
+    var i;
+
+    for (i = 0; i < acc.length; i++) {
+      acc[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.maxHeight) {
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
+        }
+      });
+    }
+  </script>
+
+  <script src="advance.js"> </script>
+</body>
+
+</html>

@@ -6,31 +6,23 @@
 }
 body{
 font-family: 'Times New Roman', Times, serif;}
+/* HEADER */
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  display:flex;
+  padding-top: 5px;
+  padding-left: 5px;
+  justify-content: space-around;
   background-color: #d1d1c9;
+  align-items: center;
 }
 
-figure, .search {
-  width: 22%
-}
-
-nav {
-  width: 56%;
-}
-
+/* NAVIGATION BAR */
 .navbar {
   padding-top: 5px;
   font-size: 1rem;
 }
 
-.navlist {
-  text-align: center;
-}
-
-.navlist li {
+.navlist li{
   padding-right: 20px;
 }
 
@@ -45,7 +37,7 @@ nav {
 
 .menu {
   list-style-type: none;
-  display: inline-block;
+  display: inline;
 }
 
 /* LOGO */
@@ -55,31 +47,16 @@ nav {
 
 /* SEARCH BAR */
 .search input[type=text] {
-  display: inline;
   padding: 9px;
   margin-top: 8px;
   font-size: 17px;
   border: none;
-  width: 80%;
 }
-.search > form > button {
-  width:50px;
-}
-.search form{
-  display: flex;
-  flex-direction: row;
-}
+
 .fa-search {
   padding: 10.5px;
 }
 
-li,
-a {
-  text-decoration: none;
-  list-style-type: none;
-  color: inherit;
-
-}
 
 html {
   scroll-behavior: smooth;
@@ -114,7 +91,16 @@ input {
   height: 30px;
 }
 
-button {
+.submit-button {
+  display: flex;
+  justify-content: center;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.accordion {
   display: flex;
   justify-content: center;
   width: 200px;
@@ -175,4 +161,12 @@ footer h2 {
 .fa-instagram {
   background: #125688;
   color: white;
+}
+
+.credit {
+  height: 50px;
+  text-align: center;
+  background-color: red;
+  font-size: large;
+  padding: 15px;
 }

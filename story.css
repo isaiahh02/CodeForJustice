@@ -6,7 +6,6 @@
 }
 a {
     text-decoration: none;
-    color: white;
 }
 
 /* HEADER */
@@ -91,6 +90,10 @@ a {
     color: white;
     padding: 14px 24px;
     font-size: 1.2rem;
+}
+
+.btn a {
+    color: white;
 }
 
 .btn:hover {

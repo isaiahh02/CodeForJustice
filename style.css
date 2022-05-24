@@ -78,11 +78,15 @@ img.slide {
 }
 
 .text-content {
-    background-color: white;
+    background-color: silver;
     height: 500px;
-    width: 500px;
-    font-family: 'Times New Roman', Times, serif;
+    width: 1000px;
+    font-family: 'Times New Roman', Times, serif
     text-align: center;
+}
+
+.text-content:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
 }
 
 .footer-container {
